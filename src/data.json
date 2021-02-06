@@ -1,0 +1,33 @@
+[
+  {
+    "title": "UI UX",
+    "id": "ui-ux",
+    "desc": "User Interface (UI) Designer tidak bisa dipisahkan dengan User Experience (UX) Designer. UI Designer memiliki tugas menentukan tampilan aplikasi dan/atau situs. ... Sederhananya, UX Designer bertugas untuk membuat aplikasi atau situs yang mudah digunakan oleh pengguna, dan terlihat keren, bagus, namun simple.",
+    "imgUrl": "https://raw.githubusercontent.com/dimar-hanung/refactory-replicate-figma-react/master/public/assets/static/illustration__ui-ux.svg",
+    "reverse": false
+  },
+  {
+    "title": "Front-End",
+    "desc": "Front-End Memiliki peran untuk slicing dari apa yang sudah dibuat UI/UX, gampang nya front-end men convert suatu desain gambar ke  sebuah code sehingga menjadi interaktif",
+    "imgUrl": "https://raw.githubusercontent.com/dimar-hanung/refactory-replicate-figma-react/e8d67d335569128406ddf16e1b46e97271eacb1c/public/assets/static/illustration__front-end.svg",
+    "reverse": true
+  },
+  {
+    "title": "Back-End",
+    "desc": "Back end developer bertanggung jawab memprogram server agar mengirimkan dokumen (dalam hal ini HTML, CSS, dan kode JavaScript) ke browser pengguna setiap kali pengguna memintanya melalui http request. PHP, JavaScript, Python, dan Ruby adalah bahasa pemrograman yang biasanya dipakai di server Gaji seorang back-end developer sekitar 5 - 15 juta per bulan nya, dan masih banyak di cari hingga saat ini",
+    "imgUrl": "https://raw.githubusercontent.com/dimar-hanung/refactory-replicate-figma-react/master/public/assets/static/illustration__back-end.svg",
+    "reverse": false
+  },
+  {
+    "title": "QA",
+    "desc": "Quality Assurance bertanggung jawab untuk memastikan sebuah produk yang akan dilepas ke pasaran sudah memenuhi semua standar kualitas untuk setiap komponennya. Untuk itu, seorang staf QA akan secara aktif melakukan monitoring dan serangkaian uji dalam upaya memberi jaminan kualitas pada pembeli. ",
+    "imgUrl": "https://raw.githubusercontent.com/dimar-hanung/refactory-replicate-figma-react/master/public/assets/static/illustration__qa.svg",
+    "reverse": true
+  },
+  {
+    "title": "DevOps",
+    "desc": "DevOps berperan dalam mengembangkan perangkat lunak, serta metode pengiriman aplikasi. ... Dalam melakukan tugasnya, profesi ini menggunakan pendekatan kolaboratif pengembangan aplikasi (Dev), dan bagian operasi aplikasi (Ops).",
+    "imgUrl": "https://raw.githubusercontent.com/dimar-hanung/refactory-replicate-figma-react/master/public/assets/static/illustration__devops.svg",
+    "reverse": false
+  }
+]

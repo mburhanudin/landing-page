@@ -1,0 +1,45 @@
+.header__bg {
+  @apply bg-dark-3 absolute top-0 left-0 h-full w-full;
+  max-width: 24rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-size: cover;
+
+  background-repeat: repeat;
+  box-shadow: inset 20px 0px 35px -30px #000, inset -20px 0px 35px -30px #000,
+    inset 30px 0px 35px -50px #ccc, inset -30px 0px 35px -50px #ccc;
+}
+.header__bg.--line {
+  box-shadow: inset 20px 0px 35px -30px white, inset -20px 0px 35px -30px white,
+    inset 30px 0px 35px -50px aqua, inset -30px 0px 35px -50px aqua,
+    -30px 0px 35px -50px #fff, 30px 0px 35px -50px #fff;
+  /* border-left: solid white 1px; */
+  /* border-right: solid white 1px; */
+}
+
+@keyframes bg_anim {
+  0% {
+    background-position-y: 0%;
+  }
+  100% {
+    background-position-y: 3600%;
+  }
+}
+.neon {
+  animation: neon 0.08s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.92),
+      0 0 30px rgba(202, 228, 225, 0.34), 0 0 12px rgba(30, 132, 242, 0.52),
+      0 0 21px rgba(30, 132, 242, 0.92), 0 0 34px rgba(30, 132, 242, 0.78),
+      0 0 54px rgba(30, 132, 242, 0.92);
+  }
+  to {
+    text-shadow: 0 0 6px rgba(202, 228, 225, 0.98),
+      0 0 30px rgba(202, 228, 225, 0.42), 0 0 12px rgba(30, 132, 242, 0.58),
+      0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88),
+      0 0 60px #1e84f2;
+  }
+}
